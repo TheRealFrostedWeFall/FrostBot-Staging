@@ -5,7 +5,7 @@ const verificationLevels = ['No Verification', 'Low', 'Medium', '(╯°□°）�
 module.exports.run = async (bot, msg, args) => {
     let sicon = msg.guild.iconURL;
 	const serverinfoembed = new Discord.RichEmbed()
-			.setColor(0x00AE86)
+			.setColor("#0263ff")
 			.setThumbnail(sicon)
 			.addField('❯ Name', msg.guild.name, true)
 			.addField('❯ ID', msg.guild.id, true)
