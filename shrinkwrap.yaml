@@ -1,5 +1,6 @@
 dependencies:
   dblapi.js: 2.0.1
+  dboats-api: 1.0.1
   discord.js: 11.3.2
 packages:
   /async-limiter/1.0.0:
@@ -12,6 +13,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-nXNKkp14tUoq4Lko2aTuQrAuerrhUbXlBXDJ+FzvH7HHlCH3jJkFFwyW1UdFaeJNe/eO3FC85WDzg5q2z1lIOA==
+  /dboats-api/1.0.1:
+    dependencies:
+      snekfetch: 3.6.4
+    dev: false
+    resolution:
+      integrity: sha512-M/cEVDjBMyjfjd2JTfQhhkNOsQy7QOpjfDkpSYcDPqgfJTxawKxXfuXbzpwxF2eKGWS2nI4q6zfm6fG4QwmYAg==
   /discord.js/11.3.2:
     dependencies:
       long: 4.0.0
@@ -64,4 +71,5 @@ shrinkwrapMinorVersion: 5
 shrinkwrapVersion: 3
 specifiers:
   dblapi.js: ^2.0.1
+  dboats-api: ^1.0.0
   discord.js: ^11.3.2
