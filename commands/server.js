@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const filterLevels = ['Off', 'No Role', 'Everyone'];
-const verificationLevels = ['None', 'Low', 'Medium', '(╯°□°）╯︵ ┻━┻', '┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻'];
+const verificationLevels = ['No Verification', 'Low', 'Medium', '(╯°□°）╯︵ ┻━┻', '┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻'];
 
 module.exports.run = async (bot, msg, args) => {
     let sicon = msg.guild.iconURL;
